@@ -22,7 +22,7 @@ foreach ($mail in $items) {
         if ($mailDate -eq $todayDate) {
             $emailsToday += [PSCustomObject]@{
                 Subject      = $mail.Subject
-                ExpectedTime = ""  # Optional placeholder
+                ExpectedTime = ""
                 ReceivedTime = $mail.ReceivedTime.ToString("yyyy-MM-dd HH:mm:ss")
                 From         = $mail.SenderEmailAddress
                 To           = $mail.To
@@ -34,14 +34,23 @@ foreach ($mail in $items) {
     }
 }
 
-# Save to JSON
+# Save new data temporarily
+$tempJson = "D:\EmailDashboard\temp_email.json"
+$emailsToday | ConvertTo-Json -Depth 3 | Set-Content $tempJson -Encoding UTF8
+
+# Compare hashes
 $jsonPath = "D:\EmailDashboard\emails.json"
-$emailsToday | ConvertTo-Json -Depth 3 | Set-Content $jsonPath -Encoding UTF8
+$oldHash = if (Test-Path $jsonPath) { Get-FileHash $jsonPath } else { $null }
+$newHash = Get-FileHash $tempJson
 
-# Change directory to Git repo
-Set-Location "D:\EmailDashboard"
+if (-not $oldHash -or $oldHash.Hash -ne $newHash.Hash) {
+    # Data changed — update real file and push
+    Copy-Item $tempJson $jsonPath -Force
+    Set-Location "D:\EmailDashboard"
 
-# Git commit and push
-git add email.json
-git commit -m "Auto update email data $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" 2>$null
-git push origin main
+    git add email.json
+    git commit -m "Auto update email data $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" 2>$null
+    git push origin main
+} else {
+    Write-Output "No change in email data. Skipping push."
+}
