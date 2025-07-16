@@ -1,61 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Email Monitor Dashboard</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100 min-h-screen p-4">
-  <div class="max-w-6xl mx-auto">
-    <h1 class="text-3xl font-bold text-center text-blue-700 mb-6">Email Monitor Dashboard</h1>
-    <div class="overflow-x-auto bg-white rounded-xl shadow">
-      <table class="min-w-full table-auto">
-        <thead class="bg-blue-600 text-white">
-          <tr>
-            <th class="px-4 py-3 text-left">Subject</th>
-            <th class="px-4 py-3 text-left">Expected Time</th>
-            <th class="px-4 py-3 text-left">Received Time</th>
-            <th class="px-4 py-3 text-left">Status</th>
-          </tr>
-        </thead>
-        <tbody id="email-table" class="text-gray-700">
-          <!-- Dynamic rows will be inserted here -->
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <script>
-    async function fetchEmails() {
-      try {
-        const res = await fetch('emails.json');
-        const data = await res.json();
-
-        const table = document.getElementById('email-table');
-        table.innerHTML = '';
-
-        data.forEach(email => {
-          const row = document.createElement('tr');
-
-          row.innerHTML = `
-            <td class="px-4 py-2">${email.Subject}</td>
-            <td class="px-4 py-2">${email.ExpectedTime}</td>
-            <td class="px-4 py-2">${email.ReceivedTime || '-'}</td>
-            <td class="px-4 py-2 font-semibold ${email.Status === 'Present' ? 'text-green-600' : 'text-red-600'}">
-              ${email.Status}
-            </td>
-          `;
-
-          table.appendChild(row);
-        });
-      } catch (err) {
-        console.error('Failed to load sent_log.json', err);
-      }
-    }
-
-    fetchEmails();
-    setInterval(fetchEmails, 10000); // Refresh every 10 seconds
-  </script>
-</body>
+<html>
+  <head><title>Test</title></head>
+  <body>
+    <h1>GitHub Pages is working!</h1>
+  </body>
 </html>
