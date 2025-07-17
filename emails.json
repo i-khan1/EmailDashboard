@@ -1,302 +1,386 @@
 [
     {
-        "Subject":  "Daily BMSY Activity File",
-        "ExpectedTime":  "2025-07-16 02:37",
-        "ReceivedTime":  "2025-07-16 02:37:06",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "csr_latam@velocityclearingllc.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily Position File",
-        "ExpectedTime":  "2025-07-16 02:50",
-        "ReceivedTime":  "2025-07-16 02:50:39",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "mion@exante.eu; pge@exante.eu; tradedesk@ext.com.cy",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD Files to Andes Investments Group",
-        "ExpectedTime":  "2025-07-16 02:54",
-        "ReceivedTime":  "2025-07-16 02:52:57",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "gyplvcapital@larrainvial.com; andes@larrainvial.com; riesgofinanciero@larrainvial.com",
-        "CC":  "sales_latam@velocityclearingllc.com; Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD Files to ASB Bank Corp",
-        "ExpectedTime":  "2025-07-16 02:55",
-        "ReceivedTime":  "2025-07-16 02:53:10",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "InversionesPropietaria@asbnet.com.pa; irodriguez@credicorpcapital.com; tradingRV@credicorpcapital.com; riesgodemercado@asbnet.com.pa; tesoreria@asbnet.com.pa; ContabilidadyFinanzasASBPanama@asbnet.com.pa",
-        "CC":  "sales_latam@velocityclearingllc.com; Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD to Hexstone Capital LLC",
-        "ExpectedTime":  "2025-07-16 03:00",
-        "ReceivedTime":  "2025-07-16 03:00:49",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "boneil@hexstonecapital.com; swever@hexstonecapital.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD,ETB \u0026 Trade File to GTN Middle East",
-        "ExpectedTime":  "2025-07-16 03:00",
-        "ReceivedTime":  "2025-07-16 03:00:53",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "operations@gtnme.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD Files for Bull Markets",
-        "ExpectedTime":  "2025-07-16 03:00",
-        "ReceivedTime":  "2025-07-16 03:00:56",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "sales_latam@velocityclearingllc.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily VCPS Position to Ambrus",
-        "ExpectedTime":  "2025-07-16 03:00",
-        "ReceivedTime":  "2025-07-16 03:00:56",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "matthew.sutton@theambrusgroup.com; william.wise@theambrusgroup.com; kris.sidial@theambrusgroup.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD Files - MMCD",
-        "ExpectedTime":  "2025-07-16 03:00",
-        "ReceivedTime":  "2025-07-16 03:00:57",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "dealing@rostro.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD \u0026 ETB File to GTN America",
-        "ExpectedTime":  "2025-07-16 03:01",
-        "ReceivedTime":  "2025-07-16 03:01:14",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "operations@gtnamericas.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily SOD to ITG Bahamas Inc",
-        "ExpectedTime":  "2025-07-16 03:04",
-        "ReceivedTime":  "2025-07-16 03:04:22",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "ben.shaw@itg.bs",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily OTC File",
-        "ExpectedTime":  "2025-07-16 04:00",
-        "ReceivedTime":  "2025-07-16 03:55:32",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "nb1036763@gmail.com; lixi00120@outlook.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
-        "Subject":  "Daily OTC File to GTN America",
-        "ExpectedTime":  "2025-07-16 04:00",
-        "ReceivedTime":  "2025-07-16 04:00:20",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "operations@gtnamericas.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
-    },
-    {
         "Subject":  "Daily Activity File to Ambrus",
-        "ExpectedTime":  "2025-07-16 04:00",
-        "ReceivedTime":  "2025-07-16 04:00:46",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "William.Wise@theambrusgroup.com",
-        "CC":  "Jake.Russo@velocityclearingllc.com; Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "10:38",
+        "Status":  "present"
     },
     {
-        "Subject":  "Daily PTP Block List",
-        "ExpectedTime":  "2025-07-16 04:05",
-        "ReceivedTime":  "2025-07-16 04:05:13",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "ariecdavis@gmail.com; lana@in9.trading; vadim@in9.trading",
-        "CC":  "Robert Calice; Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily RMS Audit History File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "09:00",
+        "Status":  "present"
     },
     {
-        "Subject":  "Daily DIVFT DIVNRA Activity",
-        "ExpectedTime":  "2025-07-16 05:00",
-        "ReceivedTime":  "2025-07-16 05:00:27",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "taxes@velocityclearingllc.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily NTA File For Vaticine",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "09:00",
+        "Status":  "present"
     },
     {
-        "Subject":  "Daily SOD VCTY CASH File",
-        "ExpectedTime":  "2025-07-16 05:00",
-        "ReceivedTime":  "2025-07-16 05:00:34",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "s.somma@firstny.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily 15c3 Report",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "08:00",
+        "Status":  "present"
     },
     {
-        "Subject":  "BONY Posision File 20250716",
-        "ExpectedTime":  "2025-07-16 05:00",
-        "ReceivedTime":  "2025-07-16 05:00:49",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "InternationalSettlements@velocityclearingllc.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Exercise and Assignment File - VCPS-650-897001",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:46",
+        "Status":  "present"
     },
     {
-        "Subject":  "Daily Portfolio Margin Snapshot VCBB-STR-524685-P",
-        "ExpectedTime":  "2025-07-16 05:14",
-        "ReceivedTime":  "2025-07-16 05:14:51",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "smichel.watteyne@stgmarkets.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Option Exercise/Assignments File to Valuable",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:39",
+        "Status":  "present"
     },
     {
-        "Subject":  "Reconciliation Portfolio Margin COB 07/15/25",
-        "ExpectedTime":  "2025-07-16 05:14",
-        "ReceivedTime":  "2025-07-16 05:14:52",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "Tim Connelly VCT; Tom Tanacredi; Clearing Ops; csr_ny1@velocityclearingllc.com",
-        "CC":  "margins@velocityclearingllc.com",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Cash Account and Reg SHO Report",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:39",
+        "Status":  "missing"
     },
     {
-        "Subject":  "Daily Cust Short file to Augustus Stock Loan Interest",
-        "ExpectedTime":  "2025-07-16 05:15",
-        "ReceivedTime":  "2025-07-16 05:15:23",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "om@orsium.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Exercise and Assignment File - VCPS-650-446367",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:39",
+        "Status":  "present"
     },
     {
-        "Subject":  "Daily Cust Short file to Evergreen Capital Management LLC and Greenle Partners LLC",
-        "ExpectedTime":  "2025-07-16 05:15",
-        "ReceivedTime":  "2025-07-16 05:15:26",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "jpazdro@gmail.com; uryniak@gmail.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily SOD VCPS Files For Navcon",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:38",
+        "Status":  "present"
     },
     {
-        "Subject":  "Daily Cust Short file to Exante ",
-        "ExpectedTime":  "2025-07-16 05:15",
-        "ReceivedTime":  "2025-07-16 05:15:29",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "tradedesk@ext.com.cy",
-        "CC":  "tf@exante.eu; Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Expired Options Assignments Velocity File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:38",
+        "Status":  "present"
     },
     {
-        "Subject":  "Seaman, SRE and IClear Daily Reconciliation",
-        "ExpectedTime":  "2025-07-16 05:22",
-        "ReceivedTime":  "2025-07-16 05:22:04",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "RiskGroup@velocityclearingllc.com; Carl.Versella@velocityclearingllc.com; Tom Tanacredi; Robert Calice; Tim Connelly VCT; roland.krkuti@velocityclearingllc.com",
-        "CC":  "",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Cust Short Int file for KR Bond",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:37",
+        "Status":  "present"
     },
     {
-        "Subject":  "Succession daily Audit Trail Report",
-        "ExpectedTime":  "2025-07-16 05:30",
-        "ReceivedTime":  "2025-07-16 05:30:23",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "RiskGroup@velocityclearingllc.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Cust Short Int file for VCBY",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:37",
+        "Status":  "present"
     },
     {
-        "Subject":  "IONIC - Daily Short Interest Report",
-        "ExpectedTime":  "2025-07-16 06:00",
-        "ReceivedTime":  "2025-07-16 06:00:28",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "sean@ionicventures.com; keith@ionicventures.com; brendan@ionicventures.com",
-        "CC":  "csr_ny1@velocityclearingllc.com; Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Cust Short Int file for Vaticine",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:37",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Cust Short Int file for Alta",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:36",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Cust Short Int file for Valuable",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:36",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Option Exercise/Assignments File to GTN America",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:34",
+        "Status":  "present"
     },
     {
         "Subject":  "Daily OPEXP File-VCPS-650-560001",
-        "ExpectedTime":  "2025-07-16 06:00",
-        "ReceivedTime":  "2025-07-16 06:00:34",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "Wayve@navfundservices.com; Semcap@navfundservices.com; David@WayveCapital.com; Rhys@WayveCapital.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:32",
+        "Status":  "missing"
     },
     {
-        "Subject":  "Daily ETB File",
-        "ExpectedTime":  "2025-07-16 06:00",
-        "ReceivedTime":  "2025-07-16 06:00:34",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "tom@arbo-capital.com; reikreik1999@yahoo.com",
-        "CC":  "csr_ny1@velocityclearingllc.com; Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Daily Exercise and Assignment File - VCPS-650-560001",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:30",
+        "Status":  "present"
     },
     {
-        "Subject":  "Equity_Margin_Report_2025-07-15 Wednesday, July 16, 2025",
-        "ExpectedTime":  "2025-07-16 06:01",
-        "ReceivedTime":  "2025-07-16 06:01:09",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "riskgroup@velocityclearingllc.com",
-        "CC":  "Support",
-        "BCC":  "",
-        "Status":  "Present"
+        "Subject":  "Exercise and Assignment file for VCLT",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "07:22",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Marks What we owe 0294",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:32",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Marks What we owe",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:30",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Velocity Fixed Income Repo Daily P\u0026L",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Velocity Fixed Income Net Cap Repo",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Velocity Fixed Income Repo Daily P\u0026L",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily VCLT Reports",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:03",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily VCLT Reports",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:03",
+        "Status":  "present"
     },
     {
         "Subject":  "Daily VCLT_BMSY_Buys Reports",
-        "ExpectedTime":  "2025-07-16 06:01",
-        "ReceivedTime":  "2025-07-16 06:01:54",
-        "From":  "reports@velocityclearingllc.com",
-        "To":  "csr_latam@velocityclearingllc.com; securitieslending@velocityclearingllc.com",
-        "CC":  "Clearing Ops",
-        "BCC":  "",
-        "Status":  "Present"
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:01",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Equity_Margin_Report_2025-07-16 Thursday, July 17, 2025",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:01",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily OPEXP File-VCPS-650-560001",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:00",
+        "Status":  "missing"
+    },
+    {
+        "Subject":  "IONIC - Daily Short Interest Report",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily ETB File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "06:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Succession daily Audit Trail Report",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:30",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Cash Account and Reg SHO Report",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:30",
+        "Status":  "missing"
+    },
+    {
+        "Subject":  "Seaman, SRE and IClear Daily Reconciliation",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:16",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Cust Short file to Hexstone Capital LLC ",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Cust Short file to Exante ",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Cust Short file to Evergreen Capital Management LLC and Greenle Partners LLC",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Cust Short file to Augustus Stock Loan Interest",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Reconciliation Portfolio Margin COB 07/16/25",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:09",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Portfolio Margin Snapshot VCBB-STR-524685-P",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:07",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "BONY Posision File 20250717",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily DIVFT DIVNRA Activity",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD VCTY CASH File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "05:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily PTP Block List",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "04:05",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily OCC LOPR Files",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "04:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily OTC File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "04:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily OTC File to GTN America",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "04:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily OTC File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "04:00",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily OTC File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:55",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily OTC File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:50",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "DAILY CASH ACCT SD REPORT",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:46",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD \u0026 ETB File to GTN America",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:17",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD Files to ASB Bank Corp",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD Files to Andes Investments Group",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:15",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD Files to ASB Bank Corp",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:14",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD Files to Andes Investments Group",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:13",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily VCPS Position to Ambrus",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:13",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD Files - MMCD",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:13",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD Files for Bull Markets",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:13",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD,ETB \u0026 Trade File to GTN Middle East",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:13",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD to ITG Bahamas Inc",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:13",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily SOD to Hexstone Capital LLC",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:13",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily Position File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "03:11",
+        "Status":  "present"
+    },
+    {
+        "Subject":  "Daily BMSY Activity File",
+        "Sender":  "reports@velocityclearingllc.com",
+        "ReceivedTime":  "02:55",
+        "Status":  "present"
     }
 ]
